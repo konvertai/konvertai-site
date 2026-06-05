@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+    <rect width="100%" height="100%" fill="transparent"/>
+    
+<g transform="translate(20,20) scale(0.9)">
+<path d="M 1097,209 L 872,233 L 876,239 L 865,261 L 884,289 L 883,306 L 754,424 L 753,287 L 626,284 L 605,335 L 606,383 L 621,394 L 608,413 L 600,627 L 606,728 L 621,736 L 701,740 L 733,729 L 752,710 L 754,607 L 781,625 L 837,693 L 886,734 L 1030,739 L 1053,735 L 1080,714 L 982,616 L 946,651 L 954,677 L 924,678 L 804,555 L 816,546 L 830,551 L 921,638 L 933,641 L 952,630 L 972,606 L 862,495 L 916,448 L 932,423 L 974,398 L 991,395 L 1022,426 L 1050,415 Z" fill="none" stroke="#5B21FF" stroke-width="20" stroke-linejoin="round"/>
+</g>
+
+<text x="470" y="290"
+font-family="Inter, Arial, sans-serif"
+font-size="150"
+font-weight="700"
+fill="#8A94A6">onvert</text>
+
+<text x="1120" y="290"
+font-family="Inter, Arial, sans-serif"
+font-size="150"
+font-weight="700"
+fill="#5B21FF">AI</text>
+
+    </svg>
