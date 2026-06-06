@@ -127,6 +127,21 @@
     padding: 0 1.25rem;
   }
 
+  .hero-visual {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .mockup {
+    width: 220px;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    height: 36px;
+    min-width: 140px;
+  }
+
   .hero-meta {
     gap: 1.5rem;
     flex-direction: row;

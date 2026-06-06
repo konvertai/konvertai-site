@@ -319,6 +319,12 @@ footer {
   margin-bottom: 1rem;
 }
 
+.footer-logo {
+  height: 40px;
+  width: auto;
+  min-width: 160px;
+}
+
 .footer-brand img {
   width: 32px;
   height: 32px;
