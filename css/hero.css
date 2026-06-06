@@ -7,7 +7,7 @@
   align-items: center;
   padding-top: 72px;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* ── Orbs de fundo ── */
@@ -336,6 +336,12 @@
 
   .hero-visual {
     margin-top: 2rem;
+    overflow: visible;
+    justify-content: center;
+  }
+
+  .hero-visual::before {
+    display: none;
   }
 
   .mockup {

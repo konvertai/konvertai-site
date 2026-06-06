@@ -128,7 +128,7 @@
   }
 
   .hero-visual {
-    display: flex;
+    display: flex !important;
     margin-top: 2rem;
   }
 
