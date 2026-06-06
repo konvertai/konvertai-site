@@ -1,0 +1,61 @@
+/* ═══════════════════════════════════════
+   UTILITIES — KonvertAI
+   Dividers, reveal animations, FAB
+═══════════════════════════════════════ */
+
+/* ── Divider ── */
+.hr {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--c-border-p), rgba(6, 182, 212, 0.2), transparent);
+}
+
+/* ── Reveal on scroll ── */
+.r {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+}
+
+.r.v {
+  opacity: 1;
+  transform: none;
+}
+
+/* ── WhatsApp FAB ── */
+.fab {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.75rem;
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #16A34A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 28px rgba(22, 163, 74, 0.45);
+  text-decoration: none;
+  transition: transform var(--t-base), box-shadow var(--t-base);
+  animation: fab-pulse 3.5s ease-in-out infinite;
+}
+
+.fab:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 36px rgba(22, 163, 74, 0.6);
+}
+
+.fab svg {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+}
+
+@keyframes fab-pulse {
+  0%, 100% {
+    box-shadow: 0 8px 28px rgba(22, 163, 74, 0.45), 0 0 0 0 rgba(22, 163, 74, 0);
+  }
+  55% {
+    box-shadow: 0 8px 28px rgba(22, 163, 74, 0.45), 0 0 0 10px rgba(22, 163, 74, 0);
+  }
+}

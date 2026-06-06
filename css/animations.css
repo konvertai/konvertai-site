@@ -1,0 +1,143 @@
+/* ═══════════════════════════════════════
+   ANIMAÇÕES + POLISH — KonvertAI
+   Etapa 5: smooth reveals, stagger, hover effects
+═══════════════════════════════════════ */
+
+/* ── Reveal com stagger (delay incremental) ── */
+.r { transition-delay: 0ms; }
+.r:nth-child(2) { transition-delay: 80ms; }
+.r:nth-child(3) { transition-delay: 160ms; }
+.r:nth-child(4) { transition-delay: 240ms; }
+.r:nth-child(5) { transition-delay: 320ms; }
+.r:nth-child(6) { transition-delay: 400ms; }
+.r:nth-child(7) { transition-delay: 480ms; }
+
+/* ── Reveal variantes ── */
+.r-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+}
+
+.r-up.v {
+  opacity: 1;
+  transform: none;
+}
+
+.r-scale {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+}
+
+.r-scale.v {
+  opacity: 1;
+  transform: none;
+}
+
+/* ── Nav smooth hide/show on scroll ── */
+#nav {
+  transition: transform 0.3s var(--ease), box-shadow var(--t-base);
+}
+
+#nav.hidden {
+  transform: translateY(-100%);
+}
+
+/* ── Glow pulsante sutil nos CTAs ── */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: var(--s-brand); }
+  50% { box-shadow: var(--s-brand-l); }
+}
+
+.btn-brand {
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+
+.btn-brand:hover {
+  animation: none;
+}
+
+/* ── Counter animation (para métricas) ── */
+.metrica-valor {
+  transition: transform 0.3s var(--ease);
+}
+
+.metrica:hover .metrica-valor {
+  transform: scale(1.05);
+}
+
+/* ── Smooth transitions nos cards ── */
+.fcard,
+.scard,
+.plano-card {
+  transition: transform 0.3s var(--ease), border-color 0.3s var(--ease), box-shadow 0.3s var(--ease), background 0.3s var(--ease);
+}
+
+/* ── Brilho nos cards hover ── */
+.plano-card.popular:hover {
+  box-shadow: 0 0 80px rgba(91, 33, 182, 0.2), var(--s-glow);
+}
+
+/* ── Step hover glow ── */
+.step-num {
+  transition: all 0.3s var(--ease);
+}
+
+/* ── FAQ smooth open ── */
+.faq-body {
+  animation: faq-open 0.3s ease;
+}
+
+@keyframes faq-open {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── Mobile touch feedback ── */
+@media (hover: none) {
+  .btn:active {
+    transform: scale(0.95);
+    transition-duration: 0.1s;
+  }
+
+  .fcard:active,
+  .scard:active {
+    background: var(--c-bg3);
+  }
+}
+
+/* ── Scrollbar styling ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--c-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--c-bg3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(91, 33, 182, 0.4);
+}
+
+/* ── Selection color ── */
+::selection {
+  background: rgba(91, 33, 182, 0.3);
+  color: var(--c-text-1);
+}
+
+/* ── Loading state (remove flash of unstyled content) ── */
+html {
+  scroll-padding-top: 80px;
+}

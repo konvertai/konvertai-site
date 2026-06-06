@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+
+# Temp files
+scripts/
+assets/_*
+*.log
+
+# Docs originais (não vão pro deploy)
+html/
+Docs/

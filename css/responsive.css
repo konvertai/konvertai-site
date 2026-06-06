@@ -1,0 +1,295 @@
+/* ═══════════════════════════════════════
+   RESPONSIVIDADE COMPLETA — KonvertAI
+   Adaptação para celulares, tablets, laptops, desktops
+═══════════════════════════════════════ */
+
+/* ── Extra large screens (> 1400px) ── */
+@media (min-width: 1400px) {
+  .wrap {
+    max-width: 1200px;
+  }
+
+  .display {
+    font-size: 5.5rem;
+  }
+}
+
+/* ── Large tablets / small laptops (768px - 960px) ── */
+@media (max-width: 960px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .hero-copy {
+    max-width: 100%;
+  }
+
+  .hero-sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-ctas {
+    justify-content: center;
+  }
+
+  .hero-meta {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    display: none;
+  }
+
+  .problemas-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .metricas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .steps::before {
+    display: none;
+  }
+
+  .grid-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .servicos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .planos-grid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ── Tablets portrait (640px - 768px) ── */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-actions .btn-outline {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .section {
+    padding: clamp(3rem, 6vw, 5rem) 0;
+  }
+
+  .display {
+    font-size: clamp(2rem, 8vw, 3.5rem);
+  }
+
+  .heading {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+  }
+
+  .subheading {
+    font-size: clamp(0.95rem, 2.5vw, 1.15rem);
+  }
+}
+
+/* ── Mobile phones (< 640px) ── */
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
+  .wrap {
+    padding: 0 1.25rem;
+  }
+
+  .hero-meta {
+    gap: 1.5rem;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .hero-stat-num {
+    font-size: 1.5rem;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-ctas .btn {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .metricas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .metrica {
+    padding: 1.5rem 1rem;
+  }
+
+  .metrica-valor {
+    font-size: 1.6rem;
+  }
+
+  .grid-features {
+    grid-template-columns: 1fr;
+  }
+
+  .servicos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fcard {
+    padding: 1.5rem;
+  }
+
+  .planos-grid {
+    max-width: 100%;
+  }
+
+  .plano-card {
+    padding: 1.5rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-btns {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cta-btns .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* FAB menor em mobile */
+  .fab {
+    width: 50px;
+    height: 50px;
+    bottom: 1.25rem;
+    right: 1.25rem;
+  }
+
+  .fab svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* ── Extra small phones (< 380px) ── */
+@media (max-width: 380px) {
+  .wrap {
+    padding: 0 1rem;
+  }
+
+  .display {
+    font-size: 1.8rem;
+  }
+
+  .hero-meta {
+    gap: 1rem;
+  }
+
+  .hero-stat-num {
+    font-size: 1.3rem;
+  }
+
+  .nav-wrap {
+    height: 60px;
+  }
+
+  .nav-brand-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .nav-brand-text {
+    font-size: 1rem;
+  }
+
+  .eyebrow {
+    font-size: 0.62rem;
+  }
+
+  .btn {
+    font-size: 0.82rem;
+    padding: 0.65rem 1.2rem;
+  }
+}
+
+/* ── Landscape phones ── */
+@media (max-height: 500px) and (orientation: landscape) {
+  #hero {
+    min-height: auto;
+    padding-top: 80px;
+    padding-bottom: 2rem;
+  }
+
+  .hero-watermark {
+    display: none;
+  }
+}
+
+/* ── Touch devices — larger tap targets ── */
+@media (hover: none) and (pointer: coarse) {
+  .btn {
+    min-height: 44px;
+  }
+
+  .nav-links a {
+    padding: 0.5rem;
+  }
+
+  .faq-item summary {
+    padding: 1.3rem 1.5rem;
+    min-height: 48px;
+  }
+}
+
+/* ── Print ── */
+@media print {
+  #nav, .fab, .hero-visual, .hero-watermark, .hero-orb-1, .hero-orb-2, .hero-grid-bg {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+}

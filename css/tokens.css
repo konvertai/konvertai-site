@@ -1,0 +1,65 @@
+/* ═══════════════════════════════════════
+   DESIGN TOKENS — KonvertAI
+   Paleta, tipografia, espaçamento, sombras
+═══════════════════════════════════════ */
+:root {
+  /* ── Cores ── */
+  --c-bg:       #09090F;
+  --c-bg1:      #0F0F1A;
+  --c-bg2:      #141420;
+  --c-bg3:      #1A1A2C;
+  --c-bg4:      #1F1F30;
+  --c-border:   rgba(255, 255, 255, 0.06);
+  --c-border-p: rgba(107, 33, 232, 0.35);
+
+  --c-roxo:     #5B21B6;
+  --c-roxo-v:   #7C3AED;
+  --c-roxo-l:   #8B5CF6;
+  --c-ciano:    #06B6D4;
+  --c-ciano-l:  #22D3EE;
+
+  --c-text-1:   #F8F7FF;
+  --c-text-2:   #A8A0C8;
+  --c-text-3:   #665D8A;
+  --c-white:    #FFFFFF;
+  --c-danger:   #EF4444;
+  --c-green:    #22C55E;
+
+  /* ── Gradientes ── */
+  --g-brand:    linear-gradient(135deg, #5B21B6 0%, #7C3AED 50%, #06B6D4 100%);
+  --g-brand-s:  linear-gradient(135deg, #7C3AED, #06B6D4);
+  --g-text:     linear-gradient(135deg, #C4B5FD 0%, #67E8F9 100%);
+  --g-subtle:   linear-gradient(135deg, rgba(91, 33, 182, 0.12), rgba(6, 182, 212, 0.06));
+
+  /* ── Sombras ── */
+  --s-card:     0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 32px rgba(0, 0, 0, 0.2);
+  --s-brand:    0 8px 32px rgba(91, 33, 182, 0.3), 0 2px 8px rgba(91, 33, 182, 0.2);
+  --s-brand-l:  0 16px 48px rgba(91, 33, 182, 0.4);
+  --s-glow:     0 0 60px rgba(91, 33, 182, 0.15);
+
+  /* ── Tipografia ── */
+  --f-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* ── Espaçamento ── */
+  --space-xs:      0.5rem;
+  --space-sm:      1rem;
+  --space-md:      1.5rem;
+  --space-lg:      2.5rem;
+  --space-xl:      4rem;
+  --space-2xl:     7rem;
+  --space-section: clamp(4rem, 8vw, 8rem);
+
+  /* ── Border Radius ── */
+  --r-xs:   6px;
+  --r-sm:   10px;
+  --r-md:   14px;
+  --r-lg:   20px;
+  --r-xl:   28px;
+  --r-full: 9999px;
+
+  /* ── Transições ── */
+  --ease:   cubic-bezier(0.4, 0, 0.2, 1);
+  --t-fast: 150ms var(--ease);
+  --t-base: 220ms var(--ease);
+  --t-slow: 400ms var(--ease);
+}

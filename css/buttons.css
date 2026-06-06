@@ -1,0 +1,90 @@
+/* ═══════════════════════════════════════
+   BOTÕES — KonvertAI
+═══════════════════════════════════════ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--f-sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: var(--r-sm);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform var(--t-base), box-shadow var(--t-base), background var(--t-base);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--c-roxo-l);
+  outline-offset: 3px;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* ── Brand (primário) ── */
+.btn-brand {
+  background: var(--g-brand);
+  color: #fff;
+  box-shadow: var(--s-brand);
+  padding: 0.8rem 1.8rem;
+}
+
+.btn-brand::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0);
+  transition: background var(--t-base);
+}
+
+.btn-brand:hover {
+  box-shadow: var(--s-brand-l);
+  transform: translateY(-1px);
+}
+
+.btn-brand:hover::before {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Outline (secundário) ── */
+.btn-outline {
+  background: transparent;
+  color: var(--c-text-1);
+  border: 1px solid var(--c-border-p);
+  padding: 0.75rem 1.6rem;
+}
+
+.btn-outline:hover {
+  background: rgba(91, 33, 182, 0.1);
+  border-color: var(--c-roxo-l);
+  transform: translateY(-1px);
+}
+
+/* ── WhatsApp ── */
+.btn-wpp {
+  background: #16A34A;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(22, 163, 74, 0.3);
+  font-size: 0.95rem;
+  padding: 0.85rem 2rem;
+}
+
+.btn-wpp:hover {
+  background: #15803D;
+  box-shadow: 0 12px 32px rgba(22, 163, 74, 0.4);
+  transform: translateY(-1px);
+}
+
+/* ── Small variant ── */
+.btn-sm {
+  padding: 0.5rem 1.1rem;
+  font-size: 0.82rem;
+}
