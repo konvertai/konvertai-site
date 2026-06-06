@@ -123,8 +123,10 @@
     font-size: 15px;
   }
 
-  .wrap {
-    padding: 0 1.25rem;
+  #hero {
+    min-height: auto;
+    padding-top: 80px;
+    padding-bottom: 2rem;
   }
 
   .hero-visual {
@@ -137,9 +139,8 @@
     margin: 0 auto;
   }
 
-  .footer-logo {
-    height: 36px;
-    min-width: 140px;
+  .wrap {
+    padding: 0 1.25rem;
   }
 
   .hero-meta {
