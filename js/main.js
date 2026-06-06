@@ -25,16 +25,7 @@
         nav.classList.remove('scrolled');
       }
 
-      // Hide nav on scroll down, show on scroll up
-      if (scrollY > 400) {
-        if (scrollY > lastScroll + 10) {
-          nav.classList.add('hidden');
-        } else if (scrollY < lastScroll - 5) {
-          nav.classList.remove('hidden');
-        }
-      } else {
-        nav.classList.remove('hidden');
-      }
+      // Nav always visible (no hide on scroll)
 
       lastScroll = scrollY;
       ticking = false;

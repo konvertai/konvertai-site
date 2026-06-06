@@ -335,7 +335,12 @@
   }
 
   .hero-visual {
-    display: none;
+    margin-top: 2rem;
+  }
+
+  .mockup {
+    width: 240px;
+    margin: 0 auto;
   }
 }
 

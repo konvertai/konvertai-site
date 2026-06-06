@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Preview — KonvertAI Brand Assets</title>
+  <style>
+    body { font-family: Inter, sans-serif; margin: 2rem; background: #1a1a2e; color: #fff; }
+    h1 { margin-bottom: 0.5rem; }
+    .subtitle { color: #a8a0c8; margin-bottom: 2rem; font-size: 0.9rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+    .card { background: #0f0f1a; border: 1px solid rgba(91,33,182,0.3); border-radius: 16px; padding: 2rem; text-align: center; }
+    .card img { max-width: 180px; margin: 1rem auto; display: block; }
+    .card-sm img { max-width: 80px; }
+    .card-light { background: #f5f5f5; border-color: #ddd; }
+    .label { font-size: 0.75rem; color: #a8a0c8; margin-top: 0.75rem; font-weight: 500; }
+    .size { font-size: 0.65rem; color: #665d8a; margin-top: 0.25rem; }
+    h2 { margin: 2.5rem 0 1rem; color: #8B5CF6; font-size: 1rem; letter-spacing: 0.05em; text-transform: uppercase; }
+    .note { background: rgba(91,33,182,0.1); border: 1px solid rgba(91,33,182,0.2); border-radius: 8px; padding: 1rem; margin: 2rem 0; font-size: 0.8rem; color: #a8a0c8; }
+  </style>
+</head>
+<body>
+  <h1>KonvertAI — Brand Assets</h1>
+  <p class="subtitle">Preview de todos os arquivos de marca. Abra este arquivo no navegador para verificar.</p>
+
+  <div class="note">
+    <strong>Modo polygon:</strong> Todos os traços do SVG são linhas retas (zero curvas). Cantos 100% geométricos.
+  </div>
+
+  <h2>Ícone K — Fundo escuro</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="k-icon.svg" alt="K SVG">
+      <div class="label">k-icon.svg</div>
+      <div class="size">Vetorial · Cor sólida #5B21B6</div>
+    </div>
+    <div class="card">
+      <img src="k-icon-gradient.svg" alt="K Gradiente">
+      <div class="label">k-icon-gradient.svg</div>
+      <div class="size">Vetorial · Gradiente roxo</div>
+    </div>
+    <div class="card card-sm">
+      <img src="favicon.svg" alt="Favicon" style="max-width: 48px;">
+      <div class="label">favicon.svg</div>
+      <div class="size">32x32 · Aba do navegador</div>
+    </div>
+  </div>
+
+  <h2>Ícone K — Fundo claro (impressão)</h2>
+  <div class="grid">
+    <div class="card card-light">
+      <img src="k-icon.svg" alt="K light">
+      <div class="label" style="color:#333">k-icon.svg</div>
+      <div class="size" style="color:#666">Para uso em fundo branco</div>
+    </div>
+    <div class="card card-light">
+      <img src="k-icon-print.png" alt="K print">
+      <div class="label" style="color:#333">k-icon-print.png</div>
+      <div class="size" style="color:#666">1024x1024 · Fundo branco · Para Word/Excel/impressão</div>
+    </div>
+  </div>
+
+  <h2>PNGs Alta Resolução (transparente)</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="k-icon-512.png" alt="K 512">
+      <div class="label">k-icon-512.png</div>
+      <div class="size">512×512 · Transparente</div>
+    </div>
+    <div class="card">
+      <img src="k-icon-1024.png" alt="K 1024">
+      <div class="label">k-icon-1024.png</div>
+      <div class="size">1024×1024 · Transparente</div>
+    </div>
+    <div class="card">
+      <img src="k-icon-2048.png" alt="K 2048">
+      <div class="label">k-icon-2048.png</div>
+      <div class="size">2048×2048 · Transparente · Serigrafia/estampa</div>
+    </div>
+  </div>
+
+  <h2>Contexto de uso</h2>
+  <div class="grid">
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:10px;justify-content:center;">
+        <img src="k-icon.svg" alt="" style="max-width:36px;margin:0;">
+        <span style="font-size:1.2rem;font-weight:700;">Konvert<span style="color:#8B5CF6;">AI</span></span>
+      </div>
+      <div class="label">Navbar (36px)</div>
+    </div>
+    <div class="card">
+      <img src="k-icon.svg" alt="" style="max-width:120px;opacity:0.06;">
+      <div class="label">Watermark (opacity 6%)</div>
+    </div>
+    <div class="card card-light">
+      <img src="k-icon-print.png" alt="" style="max-width:60px;opacity:0.15;">
+      <div class="label" style="color:#333">Marca d'água Word/Excel</div>
+      <div class="size" style="color:#666">k-icon-print.png com opacity 15%</div>
+    </div>
+  </div>
+
+  <h2>Logo KonvertAI</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="logo-dark.svg" alt="Logo dark" style="max-width:300px;">
+      <div class="label">logo-dark.svg</div>
+      <div class="size">Para fundo escuro (texto branco + AI roxo)</div>
+    </div>
+    <div class="card card-light">
+      <img src="logo-light.svg" alt="Logo light" style="max-width:300px;">
+      <div class="label" style="color:#333">logo-light.svg</div>
+      <div class="size" style="color:#666">Para fundo claro (texto escuro)</div>
+    </div>
+    <div class="card">
+      <img src="logo-gradient.svg" alt="Logo gradient" style="max-width:300px;">
+      <div class="label">logo-gradient.svg</div>
+      <div class="size">K com gradiente</div>
+    </div>
+    <div class="card card-light">
+      <img src="logo-mono.svg" alt="Logo mono" style="max-width:300px;">
+      <div class="label" style="color:#333">logo-mono.svg</div>
+      <div class="size" style="color:#666">Monocromática (impressão)</div>
+    </div>
+  </div>
+
+  <h2>Logo PNGs</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="logo-dark-720.png" alt="Logo dark PNG" style="max-width:300px;">
+      <div class="label">logo-dark-720.png</div>
+      <div class="size">720px · Fundo transparente</div>
+    </div>
+    <div class="card card-light">
+      <img src="logo-light-720.png" alt="Logo light PNG" style="max-width:300px;">
+      <div class="label" style="color:#333">logo-light-720.png</div>
+      <div class="size" style="color:#666">720px · Fundo transparente</div>
+    </div>
+    <div class="card card-light">
+      <img src="logo-print.png" alt="Logo print" style="max-width:300px;">
+      <div class="label" style="color:#333">logo-print.png</div>
+      <div class="size" style="color:#666">1440px · Fundo branco · Impressão</div>
+    </div>
+  </div>
+</body>
+</html>
