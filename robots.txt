@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://konvertai.com.br/sitemap.xml
+Sitemap: https://koldex.com.br/sitemap.xml

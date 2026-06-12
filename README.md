@@ -1,6 +1,6 @@
-# KonvertAI — Site Institucional
+# Koldex — Site Institucional
 
-Landing page de alta conversão para a agência de IA **KonvertAI**.
+Landing page de alta conversão para a agência de IA **Koldex**.
 
 ## Stack
 
@@ -14,7 +14,7 @@ Landing page de alta conversão para a agência de IA **KonvertAI**.
 
 Deploy automático via **Vercel** conectado ao GitHub.
 
-- Domínio: `konvertai.com.br`
+- Domínio: `koldex.com.br`
 - DNS/CDN: Cloudflare
 
 ## Estrutura

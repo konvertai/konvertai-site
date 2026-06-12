@@ -1,0 +1,93 @@
+DICAS PARA TODOS OS REELS FICAREM DINÂMICOS:
+
+* Corte a cada 2-3 segundos (nunca mais de 4s no mesmo frame)
+* Texto aparecendo com animação (typewriter, slide-in, pop)
+* Zoom in/out nos momentos de impacto
+* Usar som trending OU narração com energia
+* Efeitos de transição: glitch, flash, zoom rápido
+* Emoji animados como elemento visual
+* Velocidade da gravação de tela: 1.3x (não deixar arrastado)
+* NUNCA tela parada por mais de 2 segundos
+
+* * *
+
+## REEL 1 — "3 da manhã. Seu vendedor tá dormindo."
+
+**Duração:** 28 segundos | **Estilo:** Gravação de tela + texto animado + dramaticidade
+
+### Roteiro Dinâmico:
+
+**[0-1s]** TELA PRETA → Flash rápido → Relógio aparece: 03:17 AM
+
+* Efeito: zoom in rápido no relógio
+
+**[1-3s]** Texto POP (aparece com impacto):
+
+    3 da manhã.
+    Seu vendedor tá dormindo.
+    Seu lead? Não.
+
+**[3-5s]** CORTE SECO → Tela de WhatsApp
+
+* Som: *ding* de notificação
+* Mensagem aparecendo em tempo real:
+ 
+      Lead: "Oi! Vi o anúncio de vocês,
+      queria informações sobre o serviço"
+ 
+* Texto sobreposto rápido: "Uma mensagem chegou..."
+
+**[5-7s]** ZOOM na conversa → IA começa a digitar (indicador "digitando...")
+
+* Texto: "E agora, quem responde?"
+
+**[7-9s]** FLASH verde → Resposta da IA aparece:
+
+    IA: "Oi! Que bom que nos procurou 😊
+    Posso te ajudar sim!"
+
+* Efeito: glow verde na bolha da IA
+
+**[9-13s]** Conversa fluindo RÁPIDO (1.3x velocidade):
+
+    IA: "Me conta: qual o principal desafio
+    do seu atendimento hoje?"
+ 
+    Lead: "A gente demora muito e perde cliente"
+ 
+    IA: "Entendi! Isso é mais comum do que imagina..."
+
+* Texto lateral: "Entendeu a dor ✅"
+
+**[13-17s]** Conversa continuando:
+
+    IA: "Nosso Agente de IA resolve exatamente
+    isso. Posso agendar 15min com nosso
+    especialista pra te mostrar ao vivo?"
+ 
+    Lead: "Pode sim!"
+ 
+    IA: "Agendado! Amanhã às 9h. 🚀"
+
+* Texto lateral: "Qualificou ✅ Agendou ✅"
+
+**[17-22s]** CORTE → Tela de resultado com ZOOM dramático:
+
+    ✅ Lead qualificado
+    ✅ Reunião agendada
+    ⏱️ Tempo: 4 segundos pra responder
+    🕐 Horário: 3:17 AM
+    🤖 Humanos envolvidos: ZERO
+
+* Cada item aparece com som/animação (pop pop pop)
+
+**[22-26s]** Texto com IMPACTO (zoom in):
+
+    Enquanto seu concorrente
+    responde amanhã às 9h...
+ 
+    VOCÊ JÁ VENDEU.
+
+**[26-28s]** Logo Koldex + "Transformamos conversas em vendas"
+
+* Flash final

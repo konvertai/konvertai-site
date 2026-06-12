@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════
-   MAIN JS — KonvertAI
+   MAIN JS — Koldex
    Nav, mobile menu, reveal, chat, smooth scroll
 ═══════════════════════════════════════ */
 

@@ -1,6 +1,6 @@
 Tudo pronto. O site está 100% completo com todas as 6 etapas. Aqui vai o resumo:
 
-Site KonvertAI — Todas as etapas concluídas ✓
+Site Koldex — Todas as etapas concluídas ✓
 
 Etapa	Entregas	Status
 1	HTML + Design System + Navbar + Hero	✅
